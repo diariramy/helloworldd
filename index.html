@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- =====================================================
+         HTML: estructura de nuestra página
+         ===================================================== -->
+
+    <meta charset="UTF-8">
+
+    <title>Hello World chicos de 5to semestre</title>
+
+
+    <!-- =====================================================
+         CSS: aquí diseñamos nuestra página
+         ===================================================== -->
+
+    <style>
+
+        /* =====================================================
+           1. BODY
+           Es toda la página.
+           ===================================================== */
+
+        body {
+
+            /* Color del fondo */
+            background-color: #c8a3eb;
+
+            /* Tipo de letra */
+            font-family: Arial, sans-serif;
+
+            /* Quitamos el margen que pone el navegador */
+            margin: 0;
+
+            /* Color general del texto */
+            color: #0b011f;
+
+        }
+
+
+        /* =====================================================
+           2. HEADER
+           Es la parte superior de nuestra página.
+           ===================================================== */
+
+        header {
+
+            background-color: #6c5ce7;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 40px;
+
+        }
+
+
+        /* =====================================================
+           3. TÍTULO
+           ===================================================== */
+
+        h1 {
+
+            font-size: 60px;
+
+            margin: 0;
+
+        }
+
+
+        /* =====================================================
+           4. SUBTÍTULO
+           ===================================================== */
+
+        header p {
+
+            font-size: 18px;
+
+        }
+
+
+        /* =====================================================
+           5. SECCIÓN PRINCIPAL
+           ===================================================== */
+
+        .contenido {
+
+            text-align: center;
+
+            padding: 40px;
+
+        }
+
+
+        /* =====================================================
+           6. TARJETAS
+
+           Cada tarjeta puede contener texto,
+           imágenes o GIFs.
+           ===================================================== */
+
+        .tarjeta {
+
+            background-color: white;
+
+            width: 250px;
+
+            margin: 20px auto;
+
+            padding: 20px;
+
+            border-radius: 15px;
+
+            /* Una pequeña sombra */
+            box-shadow: 5px 5px 0px #222;
+
+        }
+
+
+        /* =====================================================
+           7. IMÁGENES Y GIFS
+
+           IMPORTANTE:
+           Aquí es donde después pondremos los GIFs.
+           ===================================================== */
+
+        .tarjeta img {
+
+            width: 180px;
+
+            height: auto;
+
+        }
+
+
+        /* =====================================================
+           8. HOVER
+
+           :hover significa:
+
+           "cuando el mouse pase encima"
+
+           Vamos a cambiar el color y tamaño.
+           ===================================================== */
+
+        .tarjeta:hover {
+
+            background-color: #ffeaa7;
+
+            transform: scale(1.05);
+
+            cursor: pointer;
+
+        }
+
+
+        /* =====================================================
+           9. BOTÓN
+           ===================================================== */
+
+        .boton {
+
+            display: inline-block;
+
+            background-color: #ff7675;
+
+            color: white;
+
+            padding: 12px 25px;
+
+            margin-top: 15px;
+
+            border-radius: 10px;
+
+            text-decoration: none;
+
+        }
+
+
+        /* =====================================================
+           HOVER DEL BOTÓN
+           ===================================================== */
+
+        .boton:hover {
+
+            background-color: #00b894;
+
+        }
+
+
+        /* =====================================================
+           10. FOOTER
+
+           Es la parte inferior de la página.
+           ===================================================== */
+
+        footer {
+
+            background-color: #222;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 20px;
+
+            margin-top: 40px;
+
+        }
+
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+         Parte superior
+         ===================================================== -->
+
+    <header>
+
+        <h1>Hello World!</h1>
+
+        <p>
+            Buenas buenas gente:D
+        </p>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         CONTENIDO PRINCIPAL
+         ===================================================== -->
+
+    <section class="contenido">
+
+
+        <h2>
+            Esto esta muy genial 
+        </h2>
+
+
+        <p>
+            Esta página está hecha con HTML y CSS (creditos a mi profa jaja)
+        </p>
+
+
+
+        <!-- =================================================
+             PRIMERA TARJETA
+             ================================================= -->
+
+        <div class="tarjeta">
+
+            <h2>
+                ¡Hola!
+            </h2>
+
+
+            <!-- =================================================
+                 AQUÍ PODEMOS PONER UN GIF
+
+                 Cambia la URL por tu propio GIF.
+
+                 Ejemplo:
+
+                 <img src="mi-gif.gif">
+
+                 ================================================= -->
+
+            <img
+                src=https://img1.picmix.com/output/pic/normal/1/4/0/6/12476041_36c9b.gif
+                alt="GIF de bienvenida"
+            >
+
+
+            <p>
+                Me gusta mucho este videojuego aunque la empresa a la que le pertenece me cae mal >:(.
+            </p>
+
+        </div>
+
+
+
+        <!-- =================================================
+             SEGUNDA TARJETA
+             ================================================= -->
+
+        <div class="tarjeta">
+
+            <h2>
+                Mi mundo
+            </h2>
+
+
+            <!-- AQUÍ PUEDEN PONER OTRO GIF -->
+
+            <img
+                src="https://img1.picmix.com/output/pic/normal/3/4/1/2/13422143_05ae8.gif"
+                alt="GIF decorativo"
+            >
+
+
+            <p>
+                Sailor moon tururu- tururu- turuuuu- Sailor Moon!!!
+            </p>
+
+        </div>
+
+
+
+        <div class="tarjeta">
+
+            <h2>
+                Mi mundo
+            </h2>
+
+
+            <!-- AQUÍ PUEDEN PONER OTRO GIF -->
+
+            <img
+                src="https://img1.picmix.com/output/pic/normal/6/0/6/0/13700606_30ac1.gif"
+                alt="GIF decorativo"
+            >
+
+
+            <p>
+                Cuarteto referencia OMG.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             BOTÓN
+             ================================================= -->
+
+        <a href="#" class="boton">
+
+            ¡Haz clic!
+
+        </a>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+
+         Pie de página
+         ===================================================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Mi página web
+        </p>
+
+        <p>
+            Hecho con HTML + CSS
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
